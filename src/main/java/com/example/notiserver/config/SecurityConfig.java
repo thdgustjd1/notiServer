@@ -1,9 +1,9 @@
-package com.example.alarmserver.config;
+package com.example.notiserver.config;
 
-import com.example.alarmserver.jwt.JWTFilter;
-import com.example.alarmserver.jwt.JWTUtil;
-import com.example.alarmserver.jwt.LoginFilter;
-import com.example.alarmserver.repository.RefreshTokenRepository;
+import com.example.notiserver.filter.JWTFilter;
+import com.example.notiserver.utils.JWTUtil;
+import com.example.notiserver.filter.LoginFilter;
+import com.example.notiserver.port.out.RefreshTokenRepository;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
