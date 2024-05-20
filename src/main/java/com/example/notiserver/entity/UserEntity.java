@@ -1,4 +1,4 @@
-package com.example.alarmserver.entity;
+package com.example.notiserver.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

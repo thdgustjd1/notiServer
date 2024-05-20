@@ -1,4 +1,4 @@
-package com.example.alarmserver.dto;
+package com.example.notiserver.dto;
 
 import lombok.Getter;
 import lombok.Setter;

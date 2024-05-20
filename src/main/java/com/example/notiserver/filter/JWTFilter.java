@@ -1,7 +1,8 @@
-package com.example.alarmserver.jwt;
+package com.example.notiserver.filter;
 
-import com.example.alarmserver.dto.CustomUserDetails;
-import com.example.alarmserver.entity.UserEntity;
+import com.example.notiserver.dto.CustomUserDetails;
+import com.example.notiserver.entity.UserEntity;
+import com.example.notiserver.utils.JWTUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

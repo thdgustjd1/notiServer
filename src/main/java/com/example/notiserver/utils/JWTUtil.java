@@ -1,7 +1,7 @@
-package com.example.alarmserver.jwt;
+package com.example.notiserver.utils;
 
-import com.example.alarmserver.entity.RefreshToken;
-import com.example.alarmserver.repository.RefreshTokenRepository;
+import com.example.notiserver.entity.RefreshToken;
+import com.example.notiserver.port.out.RefreshTokenRepository;
 import io.jsonwebtoken.Jwts;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
