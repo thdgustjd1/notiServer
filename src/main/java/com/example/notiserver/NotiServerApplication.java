@@ -1,13 +1,13 @@
-package com.example.alarmserver;
+package com.example.notiserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AlarmServerApplication {
+public class NotiServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AlarmServerApplication.class, args);
+        SpringApplication.run(NotiServerApplication.class, args);
     }
 
 }
