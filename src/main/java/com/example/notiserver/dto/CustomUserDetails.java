@@ -1,6 +1,6 @@
-package com.example.alarmserver.dto;
+package com.example.notiserver.dto;
 
-import com.example.alarmserver.entity.UserEntity;
+import com.example.notiserver.entity.UserEntity;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
