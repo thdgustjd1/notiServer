@@ -1,4 +1,4 @@
-package com.example.notiserver.dto;
+package com.example.notiserver.dto.request;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,4 +8,5 @@ import lombok.Setter;
 public class JoinDTO {
     private String username;
     private String password;
+    private String emailAddress;
 }
